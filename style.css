@@ -119,7 +119,6 @@ p { margin: 0 0 1rem; }
 .nav-wrap { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
 
 .brand { display: inline-flex; align-items: center; gap: .7rem; color: var(--white); }
-.brand img { width: 44px; height: 44px; border-radius: 12px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1; }
 .brand-name { font-family: var(--font-head); font-weight: 900; font-size: 1.32rem; letter-spacing: -.02em; text-transform: uppercase; }
 .brand-sub { font-size: .7rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--orange); margin-top: 4px; }
@@ -576,7 +575,6 @@ a.info-card:hover { transform: translateX(4px); }
 
   .brand-name { font-size: 1.12rem; }
   .brand-sub { font-size: .6rem; letter-spacing: .1em; }
-  .brand img { width: 40px; height: 40px; }
   .nav-actions { gap: .6rem; }
 
   .hero-ctas .btn { width: 100%; }
