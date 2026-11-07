@@ -12,7 +12,7 @@ style.css            All styles (responsive, animations, reduced-motion support)
 script.js            Mobile nav, scroll-spy, reveal animations, form validation + Netlify submission
 netlify.toml         Publish settings + security/caching headers
 robots.txt
-assets/images/       hero-truck.svg, garage-cleanout.svg, logo-mark.svg, og-image.jpg (+ .svg source), apple-touch-icon.png
+assets/images/       hero-truck.webp, garage-cleanout.webp, service-*.webp (one per service card), logo-mark.svg, og-image.jpg, apple-touch-icon.png
 assets/icons/        sprite.svg (all UI icons)
 ```
 
@@ -39,6 +39,6 @@ Update these to absolute URLs (e.g. `https://yourdomain.com/...`) in `index.html
 - Add `<link rel="canonical" href="https://yourdomain.com/">` and `<meta property="og:url" ...>`
 - Add `"url"` to the JSON-LD block.
 
-## Swapping in real photos
+## Swapping in your own photos
 
-The artwork is custom SVG illustration so nothing breaks. Real photos of the truck, crew, and before/after jobs convert better — replace `assets/images/hero-truck.svg` and `assets/images/garage-cleanout.svg` with optimized `.webp`/`.jpg` files (≈1600px wide, < 250 KB) and update the `src`/`alt` in `index.html`.
+The hero, about, and service-card photos are photorealistic stock-style images. Real photos of your own truck, crew, and before/after jobs build even more trust. To swap one, replace the matching file in `assets/images/` (for example `hero-truck.webp` or `service-garage.webp`) with an optimized `.webp`/`.jpg` of the same shape (about 1600px wide for the hero, 800px for service cards, under 250 KB), and update the `alt` text in `index.html`.

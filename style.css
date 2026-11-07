@@ -247,6 +247,14 @@ p { margin: 0 0 1rem; }
 }
 .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: transparent; }
 .service-card:hover::before { transform: scaleX(1); }
+.service-card::before { z-index: 2; }
+.service-photo {
+  width: calc(100% + 48px); max-width: none; margin: -28px -24px 0;
+  aspect-ratio: 16 / 10; object-fit: cover; background: var(--sand-2);
+  transition: transform .6s var(--ease);
+}
+.service-card:hover .service-photo { transform: scale(1.04); }
+.service-card .service-icon { position: relative; z-index: 1; margin-top: -32px; border: 3px solid var(--white); }
 .service-icon {
   width: 64px; height: 64px; border-radius: 18px; margin-bottom: 20px;
   display: grid; place-items: center;
@@ -584,6 +592,9 @@ a.info-card:hover { transform: translateX(4px); }
   .service-card .service-icon { width: 54px; height: 54px; margin-bottom: 0; }
   .service-card .service-icon svg { width: 26px; height: 26px; }
   .service-card h3 { flex: 1; align-self: center; margin: 0; }
+  .service-photo { flex-basis: calc(100% + 40px); width: calc(100% + 40px); margin: -22px -20px 0; aspect-ratio: 16 / 9; }
+  .service-card .service-icon { margin-top: -27px; }
+  .service-card h3 { margin-top: 12px; }
   .service-card p { flex-basis: 100%; margin: 14px 0 12px; }
 
   .about-media::before { inset: 16px -12px -12px 16px; }
