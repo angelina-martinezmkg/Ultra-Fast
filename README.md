@@ -1,4 +1,4 @@
-# Ultra Fast Pick Up and Haul Away — Website
+# Junk Removal Services — Website
 
 Static, dependency-free landing page (HTML5 / CSS3 / vanilla JS) for a junk removal & hauling company in Glendale, AZ. Built for GitHub → Netlify deployment with Netlify Forms.
 

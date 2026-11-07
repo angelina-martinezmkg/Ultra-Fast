@@ -1,9 +1,9 @@
-/* Ultra Fast Pick Up and Haul Away — site scripts (vanilla JS, no dependencies) */
+/* Junk Removal Services — site scripts (vanilla JS, no dependencies) */
 (function () {
   'use strict';
 
-  var PHONE_LINK = 'tel:+16027683740';
-  var PHONE_TEXT = '(602) 768-3740';
+  var PHONE_LINK = 'tel:+10000000000';
+  var PHONE_TEXT = '(000) 000-0000';
   var THANK_YOU_URL = '/thank-you.html';
 
   /* ---------- Current year ---------- */
