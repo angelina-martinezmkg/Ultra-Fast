@@ -142,7 +142,7 @@
     });
   });
 
-  // Format phone as (602) 555-0123 while typing
+  // Format phone as (000) 000-0000 while typing
   if (fields.phone) {
     fields.phone.addEventListener('input', function () {
       var digits = fields.phone.value.replace(/\D/g, '');
